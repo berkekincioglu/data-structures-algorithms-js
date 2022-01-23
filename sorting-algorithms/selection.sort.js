@@ -7,12 +7,12 @@ const swap = (array, idx1, idx2) => {
   array[idx2] = temp;
 };
 
-let arr = [20, 10, 2, 3, 54, 334];
+// let arr = [20, 10, 2, 3, 54, 334];
 
 const selectionSort = (arr) => {
   for (let i = 0; i < arr.length; i++) {
     let smallest = i;
-    noSwaps = true;
+
     for (let j = i + 1; j < arr.length; j++) {
       if (arr[j] < arr[smallest]) {
         smallest = j;
@@ -24,5 +24,7 @@ const selectionSort = (arr) => {
   return arr;
 };
 
-arr = selectionSort(arr);
-console.log(arr);
+// arr = selectionSort(arr);
+// console.log(arr);
+
+export default selectionSort;
