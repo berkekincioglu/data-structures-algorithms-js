@@ -8,7 +8,7 @@ const swap = (array, idx1, idx2) => {
   array[idx2] = temp;
 };
 
-let arr = [20, 10, 2, 3, 54, 334];
+// let arr = [20, 10, 2, 3, 54, 334];
 
 const insertionSort = (arr) => {
   for (let i = 1; i < arr.length; i++) {
@@ -33,5 +33,7 @@ const insertionSort2 = (arr) => {
   return arr;
 };
 
-arr = insertionSort2(arr);
-console.log(arr);
+// arr = insertionSort2(arr);
+// console.log(arr);
+
+export default insertionSort;

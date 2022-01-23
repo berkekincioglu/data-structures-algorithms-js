@@ -13,7 +13,7 @@ const swap = (array, idx1, idx2) => {
 //   [arr[idx1], arr[idx2]] = [arr[idx2], arr[idx1]];
 // };
 
-let arr = [20, 10, 2, 3, 54, 334];
+// let arr = [20, 10, 2, 3, 54, 334];
 
 const bubbleSort = (arr) => {
   let noSwaps;
@@ -30,5 +30,4 @@ const bubbleSort = (arr) => {
   return arr;
 };
 
-arr = bubbleSort(arr);
-console.log(arr);
+export default bubbleSort;
