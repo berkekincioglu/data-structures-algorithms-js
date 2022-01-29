@@ -169,6 +169,6 @@ tree.insertBT('g');
 // Post-order Traversal
 // Left -> Right -> Root
 // console.log(tree.bfs());
-console.log('Pre-order -> ', tree.preOrder());
-console.log('Post-order -> ', tree.postOrder());
-console.log('In-order -> ', tree.inOrder());
+// console.log('Pre-order -> ', tree.preOrder());
+// console.log('Post-order -> ', tree.postOrder());
+// console.log('In-order -> ', tree.inOrder());
